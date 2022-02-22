@@ -169,7 +169,7 @@ public class AdminManageServlet extends HttpServlet {
 	 int i = statement.executeUpdate();
 	 }
 	 //Step 3: redirect back to UserServlet (note: remember to change the url to your project name)
-	 response.sendRedirect("http://localhost:8090/DevOpsProj2/AdminManageServlet/dashboard");
+	 response.sendRedirect("http://localhost:8087/DevOpsProj2/AdminManageServlet/dashboard");
 	}
 
 	private void deleteAdmin(HttpServletRequest request, HttpServletResponse response)
@@ -184,7 +184,7 @@ public class AdminManageServlet extends HttpServlet {
 		}
 		// Step 3: redirect back to UserServlet dashboard (note: remember to change the
 		// url to your project name)
-		response.sendRedirect("http://localhost:8090/DevOpsProj2/AdminManageServlet/dashboard");
+		response.sendRedirect("http://localhost:8087/DevOpsProj2/AdminManageServlet/dashboard");
 	}
 
 	/**
